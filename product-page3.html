@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED STORE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.png" width="125px"/></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="image/cart.png" width="30px" height="30px"></a>
+            <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+  </div>
+
+
+
+
+<!----- All products ----->
+
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>Short by sale</option>
+        </select>
+    </div>
+    
+
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details.html"><img src="image/product-1.jpg"></a>
+            <h4>Red Printed T-Shirt</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+           <a href="product-2.html"> <img src="image/product-2.jpg"></a>
+            <h4>Sport Shoes</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>$120.00</p>
+        </div>
+        <div class="col-4">
+           <a href="product-3.html"> <img src="image/product-3.jpg"></a>
+            <h4>Trouser Pant</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>$90.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-4.html"><img src="image/product-4.jpg"></a>
+            <h4>Blue Printed T-Shirt</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+            </div>
+            <p>$70.00</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <a href="product-5.html"><img src="image/product-5.jpg"></a>
+            <h4>Walking Shoes</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$200.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-6.html"><img src="image/product-6.jpg"></a>
+            <h4>Black Printed T-Shirt</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-7.html"><img src="image/product-7.jpg"></a>
+            <h4>Shoes Moja</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>$20.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-8.html"><img src="image/product-8.jpg"></a>
+            <h4>Fossil Watch</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+            </div>
+            <p>$240.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+           <a href="product-9.html"> <img src="image/product-9.jpg"></a>
+            <h4>Rolex Watch</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+           <a href="product-10.html"> <img src="image/product-10.jpg"></a>
+            <h4>Sports Shoes</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>$190.00</p Shoes>
+        </div>
+        <div class="col-4">
+           <a href="product-11.html"> <img src="image/product-11.jpg"></a>
+            <h4>Women Shoes</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>$210.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-12.html"><img src="image/product-12.jpg"></a>
+            <h4>Sports Trouser</h4>
+            <div class="reating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+            </div>
+            <p>$170.00</p>
+        </div>
+    </div>
+    <div class="number-list">
+        <button class="page-number"><a href="product-page2.html"><i class="fa-solid fa-caret-left"></i></a></button>
+        <button class="page-number"><a href="product.html">1</a></button>
+        <button class="page-number"><a href="product-page2.html">2</a></button>
+        <button style="background-color: #ff523b;" class="page-number"><a style="color: white;" href="product-page3.html">3</a></button>
+        <button class="page-number"><a href=""><i class="fa-solid fa-caret-right"></i></a></button>
+      </div>
+</div>
+
+
+
+
+<!----- footer ----->
+<footer class="footer">
+    <div class="container">
+       <div class="row">
+          <div class="footer-col-1">
+             <h3>Download Our App</h3>
+             <p>Download App for Android and ios mobile Phone.</p>
+             <div class="app-logo">
+                <img src="image/play-store.png">
+                <img src="image/app-store.png">
+             </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="image/logo-white.png">
+            <p>Our Purpose Is To Sustainably Make the pleasure and Benefits of Sprots Accessible to tha Many. </p>
+        </div>
+        <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+            </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+       </div>
+       <hr>
+       <p class="copyright">Copyright 2022 - Md Alamin</p>
+    </div>
+</footer>
+
+<!----- js toggle menu ----->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "500px";
+        }
+
+        else
+             {MenuItems.style.maxHeight = "0px";
+            }
+             
+            
+    }
+
+</script>
+
+</body>
+</html>
